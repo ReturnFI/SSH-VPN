@@ -15,5 +15,5 @@ A simple bash-based VPN panel for managing SSH VPN users securely on Debian/Ubun
 Download and run with:
 
 ```
-wget -O ssh_panel.sh https://github.com/ReturnFI/SSH-VPN/ssh_panel.sh && chmod +x ssh_panel.sh && sudo ./ssh_panel.sh
+wget -O ssh_panel.sh https://raw.githubusercontent.com/ReturnFI/SSH-VPN/refs/heads/main/ssh_panel.sh && chmod +x ssh_panel.sh && sudo ./ssh_panel.sh
 ```
