@@ -88,7 +88,7 @@ function change_ssh_port() {
   sed -i '/^#\?Port /d' "$SSH_CONFIG"
   echo "Port $new_port" >> "$SSH_CONFIG"
 
-  sed -i 's/^#\?PermitRootLogin .*/PermitRootLogin no/' "$SSH_CONFIG"
+  # sed -i 's/^#\?PermitRootLogin .*/PermitRootLogin no/' "$SSH_CONFIG"
 
   echo -e "${BLUE}🔄 Restarting SSH service...${RESET}"
   systemctl restart ssh || systemctl restart sshd
