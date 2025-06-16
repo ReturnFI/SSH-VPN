@@ -1,6 +1,6 @@
 # 🛡️ SSH VPN Panel
 
-A simple bash-based VPN panel for managing SSH VPN users securely on Debian/Ubuntu servers.
+A simple bash-based VPN panel for managing SSH VPN users securely .
 
 ## ✨ Features
 
