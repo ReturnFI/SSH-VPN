@@ -2,6 +2,10 @@
 
 A simple bash-based VPN panel for managing SSH VPN users securely .
 
+<div align="center">
+<img width="345" height="274" alt="image" src="https://github.com/user-attachments/assets/9b82d1eb-aef9-4f38-b04b-35ce8a106408" />
+</div>
+
 ## ✨ Features
 
 - ➕ Add VPN-only users
