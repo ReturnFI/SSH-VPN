@@ -10,7 +10,7 @@ A simple bash-based VPN panel for managing SSH VPN users securely .
 
 - ➕ Add VPN-only users
 - 🗑️ Remove users
-- 📄 List VPN users (`nologin` shell only)
+- 📄 List VPN users (`nologin`)
 - 🔁 Change SSH port (with backup and root login disabled)
 - ✅ Secure and root-only access
 
