@@ -19,5 +19,5 @@ A simple bash-based VPN panel for managing SSH VPN users securely .
 Install and run with:
 
 ```
-wget -O ssh_panel.sh https://raw.githubusercontent.com/ReturnFI/SSH-VPN/refs/heads/main/ssh_panel.sh && chmod +x ssh_panel.sh && sudo ./ssh_panel.sh
+wget -q https://raw.githubusercontent.com/ReturnFI/SSH-VPN/main/ssh_panel.py && python3 ssh_panel.py
 ```
