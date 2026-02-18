@@ -82,7 +82,7 @@ class SSHVPNManager:
             
     def add_user_to_db(self, username, password):
         self.init_user_db()
-        created_date = datetime.datetime.utcnow().isoformat() + 'Z'
+        created_date = datetime.datetime.now(datetime.UTC).isoformat()
         
         try:
             with open(self.user_db, 'r') as f:
@@ -133,7 +133,7 @@ class SSHVPNManager:
         except (json.JSONDecodeError, KeyError):
             return
             
-        change_date = datetime.datetime.utcnow().isoformat() + 'Z'
+        change_date = datetime.datetime.now(datetime.UTC).isoformat()
         
         for user in data['users']:
             if user['username'] == username:
